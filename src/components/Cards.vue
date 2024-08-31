@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card-custom">
     <div class="row">
       <div class="col-4">
         <img :src="getImageUrl(image)" alt="" class="rounded-circle" />
@@ -34,12 +34,11 @@ export default {
 </script>
 
 <style lang="scss">
-.card {
-  background-color: #fff;
+@import "../generals.scss";
+
+.card-custom {
+  background-color: $bg-color-gray;
   padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .rounded-circle {
