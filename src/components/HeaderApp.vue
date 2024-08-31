@@ -43,11 +43,6 @@ defineProps({
 <style lang="scss">
 @import "../generals.scss";
 
-.logo {
-  img {
-  }
-}
-
 .menu {
   ul {
     list-style: none;
