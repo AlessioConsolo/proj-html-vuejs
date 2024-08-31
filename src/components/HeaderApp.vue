@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="container">
-    <div class="row">
+    <div class="row pb-5">
       <div class="col d-flex my-4 align-items-center justify-content-between">
         <div class="logo">
           <img class="img-fluid" src="../assets/dark-logo.png" alt="Logo" />
