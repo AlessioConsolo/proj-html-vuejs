@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="container-fluid main-bg">
-    <div class="container">
+    <div class="container py-5">
       <div class="row pt-5">
         <div class="col mb-5 text-center">
           <p>STIMULATED TO LEARN?</p>
@@ -91,6 +91,52 @@
       </div>
     </div>
   </div>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col text-center">
+        <p>MAXCOACH AVAILABLE COURSES</p>
+        <h2>
+          Access <span class="green-main">Smart Tutoring</span> Program For
+          Benefits.
+        </h2>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-4">
+        <div class="tutoring-cards">
+          <img src="../assets/home-2-image-box-01.png" alt="" />
+          <h4>Customize Preferences</h4>
+          <p>
+            Learners are given the right to arrange and customize their study
+            schedule and timetable based on preferences.
+          </p>
+          <a href="#">Start here -></a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="tutoring-cards">
+          <img src="../assets/about-us-02-image-box-02.png" alt="" />
+          <h4>Cloud Storage</h4>
+          <p>
+            You can store online lessons via online cloud or download to your
+            device and revise lessons on the way.
+          </p>
+          <a href="#">Get Free Quote -></a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="tutoring-cards">
+          <img src="../assets/home-2-image-box-03.png" alt="" />
+          <h4>Multimedia Channels</h4>
+          <p>
+            We provide study materials with various formats: video, audio,
+            slides, doc, prints, books and applications.
+          </p>
+          <a href="#">Start now -></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 import Card from "./Cards.vue";
@@ -116,5 +162,9 @@ export default {
 
 .main-bg {
   background-color: $bg-color-gray;
+}
+
+.green-main {
+  color: $green-main;
 }
 </style>

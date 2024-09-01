@@ -48,6 +48,6 @@ export default {
 }
 
 .price-color {
-  color: #20ad96;
+  color: $green-main;
 }
 </style>
