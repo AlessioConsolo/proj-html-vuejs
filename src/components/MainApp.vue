@@ -240,13 +240,35 @@
     </div>
   </div>
   <div class="container">
-    <div class="row">
-      <div class="col-2">
-        <p>Successfully</p>
+    <div class="row d-flex justify-content-center">
+      <div class="col-2 left-border right-border text-center">
+        <p>Successfully trained</p>
+        <h2>
+          <strong><span class="green-main">1790</span></strong>
+        </h2>
+        <p>ENROLLED LEARNERS</p>
       </div>
-      <div class="col-2"></div>
-      <div class="col-2"></div>
-      <div class="col-2"></div>
+      <div class="col-2 left-border right-border text-center">
+        <p>Proudly Received</p>
+        <h2>
+          <strong><span class="green-main">19</span></strong>
+        </h2>
+        <p>COUNTRYWIDE AWARDS</p>
+      </div>
+      <div class="col-2 left-border right-border text-center">
+        <p>Firmly Established</p>
+        <h2>
+          <strong><span class="green-main">24</span></strong>
+        </h2>
+        <p>LOCAL BRANCHES</p>
+      </div>
+      <div class="col-2 left-border right-border text-center">
+        <p>Getting Featured on</p>
+        <h2>
+          <strong><span class="green-main">1090</span></strong>
+        </h2>
+        <p>BLOG POSTS</p>
+      </div>
     </div>
   </div>
 </template>
@@ -282,5 +304,13 @@ export default {
 
 .green-main {
   color: $green-main;
+}
+
+.left-border {
+  border-left: 1px solid $bg-color-gray;
+}
+
+.right-border {
+  border-right: 1px solid $bg-color-gray;
 }
 </style>
