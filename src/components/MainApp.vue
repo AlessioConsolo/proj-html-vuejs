@@ -159,7 +159,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid main-bg">
+  <div class="container-fluid main-bg py-5">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -241,33 +241,104 @@
   </div>
   <div class="container">
     <div class="row d-flex justify-content-center">
-      <div class="col-2 left-border right-border text-center">
+      <div class="col-2 py-5 left-border right-border text-center">
         <p>Successfully trained</p>
         <h2>
           <strong><span class="green-main">1790</span></strong>
         </h2>
         <p>ENROLLED LEARNERS</p>
       </div>
-      <div class="col-2 left-border right-border text-center">
+      <div class="col-2 py-5 left-border right-border text-center">
         <p>Proudly Received</p>
         <h2>
           <strong><span class="green-main">19</span></strong>
         </h2>
         <p>COUNTRYWIDE AWARDS</p>
       </div>
-      <div class="col-2 left-border right-border text-center">
+      <div class="col-2 py-5 left-border right-border text-center">
         <p>Firmly Established</p>
         <h2>
           <strong><span class="green-main">24</span></strong>
         </h2>
         <p>LOCAL BRANCHES</p>
       </div>
-      <div class="col-2 left-border right-border text-center">
+      <div class="col-2 py-5 left-border right-border text-center">
         <p>Getting Featured on</p>
         <h2>
           <strong><span class="green-main">1090</span></strong>
         </h2>
         <p>BLOG POSTS</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid main-bg-beige py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <p>ENJOYABLE INSIGHTS</p>
+          <h3>Most Viewed <span class="green-main">Best Blogs</span></h3>
+          <ul>
+            <li>Become a better Blogger: Content Planning</li>
+            <li>Promoting Your Online Business on Pinterest</li>
+            <li>Gamification and Game-Based Learning</li>
+            <li>Designing an Online Course from Expert's Perspective</li>
+            <li>Why Online Courses Are The Future of Education</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../assets/artist-blog-03-480x352.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">ARTIST</h5>
+              <p class="card-text">Brush Strokes Energize Trees in Paintings</p>
+              <span>May 15, 2020 </span>
+              <span>688 views</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="../assets/artist-blog-01-480x352.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">ARTIST</h5>
+              <p class="card-text">
+                Pocket-Sized Notebooks Hold Miniature Paintings
+              </p>
+              <span>May 15, 2020 </span>
+              <span>603 views</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5">
+    <div class="row">
+      <div class="col text-center">
+        <h2>Subscribe <span class="green-main">Newsletters</span></h2>
+        <p>
+          Enter your email address to register to our newsletter subscription
+          delivered on a regular basis!
+        </p>
+        <form>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="main-bg w-25 no-borders"
+            id="InputEmail"
+          />
+          <button type="button" class="green-main-bg text-white no-borders">
+            Subscribe
+          </button>
+        </form>
       </div>
     </div>
   </div>
@@ -302,8 +373,16 @@ export default {
   background-color: $main-white;
 }
 
+.main-bg-beige {
+  background-color: $bg-color-beige;
+}
+
 .green-main {
   color: $green-main;
+}
+
+.green-main-bg {
+  background-color: $green-main;
 }
 
 .left-border {
@@ -312,5 +391,9 @@ export default {
 
 .right-border {
   border-right: 1px solid $bg-color-gray;
+}
+
+.no-borders {
+  border: none;
 }
 </style>
