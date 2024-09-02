@@ -2,12 +2,17 @@
   <div class="container">
     <div class="row my-5">
       <div class="col-6 align-content-center">
-        <h1 class="fw-600 fs-35rem">Distant learning for further expansion</h1>
+        <h1 class="fw-600 main-purple fs-35rem">
+          Distant learning for further expansion
+        </h1>
         <p class="sub-gray">
           Learning is a life-long journey that in fact we never find the
           terminate stop. Stop searching, enjoy the process.
         </p>
-        <button class="text-white green-main-bg green-button" type="button">
+        <button
+          class="text-white green-main-bg green-button mb-3"
+          type="button"
+        >
           Download free guide
         </button>
         <p class="sub-gray">
