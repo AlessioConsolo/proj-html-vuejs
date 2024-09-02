@@ -4,12 +4,54 @@ import MainApp from "./components/MainApp.vue";
 import FooterApp from "./components/FooterApp.vue";
 
 const menuItems = [
-  { href: "/home", text: "Home" },
-  { href: "/pages", text: "Pages" },
-  { href: "/courses", text: "Courses" },
-  { href: "/features", text: "Features" },
-  { href: "/blog", text: "Blog" },
-  { href: "/shop", text: "Shop" },
+  {
+    href: "/home",
+    text: "Home",
+    submenu: [
+      { href: "#", text: "Submenu 1" },
+      { href: "#", text: "Submenu 2" },
+    ],
+  },
+  {
+    href: "/pages",
+    text: "Pages",
+    submenu: [
+      { href: "#", text: "Submenu 3" },
+      { href: "#", text: "Submenu 4" },
+    ],
+  },
+  {
+    href: "/courses",
+    text: "Courses",
+    submenu: [
+      { href: "#", text: "Submenu 5" },
+      { href: "#", text: "Submenu 6" },
+    ],
+  },
+  {
+    href: "/features",
+    text: "Features",
+    submenu: [
+      { href: "#", text: "Submenu 7" },
+      { href: "#", text: "Submenu 8" },
+    ],
+  },
+  {
+    href: "/blog",
+    text: "Blog",
+    submenu: [
+      { href: "#", text: "Submenu 9" },
+      { href: "#", text: "Submenu 10" },
+    ],
+  },
+  {
+    href: "/shop",
+    text: "Shop",
+    submenu: [
+      { href: "#", text: "Submenu 11" },
+      { href: "#", text: "Submenu 12" },
+    ],
+  },
 ];
 
 const address = [

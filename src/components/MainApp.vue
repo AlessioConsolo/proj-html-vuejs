@@ -195,64 +195,9 @@
           </h3>
         </div>
       </div>
-      <div class="row gap-3">
-        <div class="col-3">
-          <div class="top-learners-card main-white">
-            <h6>It's a choice of quality for people with special needs</h6>
-            <p>
-              I'm a very strict person so i require everything to be organized
-              and neat. Then, i'll be able to make things right and shine.
-              MaxCoach guys just got me.
-            </p>
-            <img
-              src="../assets/testimonial-avata-03.jpg"
-              class="rounded-circle"
-              alt=""
-            />
-            <span>FLORENCE THEMES</span>
-            <span>/ Multimedia Admin</span>
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="top-learners-card main-white">
-            <h6>High level of efficiency and scientific teaching methods</h6>
-            <p>
-              I am free to learn at my own pace, follow my own schedule and
-              choose the subject i want to learn from the syllabus. Great study
-              portal for people like me.
-            </p>
-            <img
-              src="../assets/testimonial-avata-02.jpg"
-              class="rounded-circle"
-              alt=""
-            />
-            <span>MINA HOLLACE</span>
-            <span>/ Freelancer</span>
-          </div>
-        </div>
-        <div class="col-3">
-          <div class="top-learners-card main-white">
-            <h6>
-              Professional team of specialists and passionate mentors at reach
-            </h6>
-            <p>
-              I need to get a certification for English profiency and MaxCoach
-              is my best choice. Their tutors are smart and professional when
-              dealing with students.
-            </p>
-            <img
-              src="../assets/testimonial-avata-04.jpg"
-              class="rounded-circle"
-              alt=""
-            />
-            <span>MADLEY PONDOR</span>
-            <span>/ IT Specialist</span>
-          </div>
-        </div>
-      </div>
       <div class="row">
-        <div class="col text-center">
-          <p>. . . .</p>
+        <div class="col">
+          <Slider :slides="slides" />
         </div>
       </div>
       <div class="row">
@@ -418,9 +363,41 @@
 </template>
 <script>
 import Card from "./Cards.vue";
+import Slider from "./Slider.vue";
 
 export default {
-  components: { Card },
+  components: { Card, Slider },
+  data() {
+    return {
+      slides: [
+        {
+          title: "It's a choice of quality for people with special needs",
+          description:
+            "I'm a very strict person so i require everything to be organized and neat. Then, i'll be able to make things right and shine. MaxCoach guys just got me.",
+          image: "testimonial-avata-03.jpg",
+          name: "FLORENCE THEMES",
+          job: "/ Multimedia Admin",
+        },
+        {
+          title: "High level of efficiency and scientific teaching methods",
+          description:
+            "I am free to learn at my own pace, follow my own schedule and choose the subject i want to learn from the syllabus. Great study portal for people like me.",
+          image: "testimonial-avata-02.jpg",
+          name: "MINA HOLLACE",
+          job: "/ Freelancer",
+        },
+        {
+          title:
+            "Professional team of specialists and passionate mentors at reach",
+          description:
+            "I need to get a certification for English profiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.",
+          image: "testimonial-avata-04.jpg",
+          name: "MADLEY PONDOR",
+          job: "/ IT Specialist",
+        },
+      ],
+    };
+  },
 };
 </script>
 <style lang="scss">

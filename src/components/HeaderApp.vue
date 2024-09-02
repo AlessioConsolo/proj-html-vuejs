@@ -7,14 +7,29 @@
         </div>
         <div class="menu d-flex">
           <ul class="d-flex gap-5 mx-5">
-            <li v-for="(item, index) in menuItems" :key="index">
-              <a :href="item.href"
-                >{{ item.text }}
-                <i
-                  class="fa-solid fa-angle-down fa-xs"
-                  style="color: #696969"
-                ></i>
+            <li
+              v-for="(item, index) in menuItems"
+              :key="index"
+              class="dropdown"
+            >
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                role="button"
+                @click.prevent
+              >
+                {{ item.text }}
               </a>
+              <ul class="dropdown-menu">
+                <li
+                  v-for="(submenuItem, submenuIndex) in item.submenu"
+                  :key="submenuIndex"
+                >
+                  <a :href="submenuItem.href">{{ submenuItem.text }}</a>
+                </li>
+              </ul>
             </li>
           </ul>
           <div class="searchbar">
