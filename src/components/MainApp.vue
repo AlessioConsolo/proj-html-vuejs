@@ -97,7 +97,7 @@
       <div class="row my-5">
         <div class="col text-center">
           <button class="text-white green-main-bg green-button" type="button">
-            View all courses ->
+            View all courses <i class="fa-solid fa-arrow-right-long"></i>
           </button>
         </div>
       </div>
@@ -106,67 +106,81 @@
   <div class="container my-5">
     <div class="row">
       <div class="col text-center">
-        <p>MAXCOACH AVAILABLE COURSES</p>
-        <h2>
+        <p class="sub-gray">MAXCOACH AVAILABLE COURSES</p>
+        <h2 class="main-purple">
           Access <span class="green-main">Smart Tutoring</span> Program For
           Benefits.
         </h2>
       </div>
     </div>
-    <div class="row mt-5">
+    <div class="row my-5">
       <div class="col-4">
         <div class="tutoring-cards">
           <img src="../assets/home-2-image-box-01.png" alt="" />
-          <h4>Customize Preferences</h4>
-          <p>
+          <h4 class="main-purple">Customize Preferences</h4>
+          <p class="sub-gray">
             Learners are given the right to arrange and customize their study
             schedule and timetable based on preferences.
           </p>
-          <a href="#">Start here -></a>
+          <a class="sub-gray" href="#"
+            >Start here <i class="fa-solid fa-arrow-right-long"></i
+          ></a>
         </div>
       </div>
       <div class="col-4">
         <div class="tutoring-cards">
           <img src="../assets/about-us-02-image-box-02.png" alt="" />
-          <h4>Cloud Storage</h4>
-          <p>
+          <h4 class="main-purple">Cloud Storage</h4>
+          <p class="sub-gray">
             You can store online lessons via online cloud or download to your
             device and revise lessons on the way.
           </p>
-          <a href="#">Get Free Quote -></a>
+          <a class="sub-gray" href="#"
+            >Get Free Quote <i class="fa-solid fa-arrow-right-long"></i
+          ></a>
         </div>
       </div>
       <div class="col-4">
         <div class="tutoring-cards">
           <img src="../assets/home-2-image-box-03.png" alt="" />
-          <h4>Multimedia Channels</h4>
-          <p>
+          <h4 class="main-purple">Multimedia Channels</h4>
+          <p class="sub-gray">
             We provide study materials with various formats: video, audio,
             slides, doc, prints, books and applications.
           </p>
-          <a href="#">Start now -></a>
+          <a class="sub-gray" href="#"
+            >Start now <i class="fa-solid fa-arrow-right-long"></i
+          ></a>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row py-5">
       <div class="col-6">
         <div class="tutoring-video">
           <img src="../assets/home-2-popup-video-poster.jpg" alt="" />
-          <img src="../assets/icon-youtube-play.png" alt="" />
+          <div class="tutoring-play">
+            <img src="../assets/icon-youtube-play.png" alt="" />
+          </div>
         </div>
       </div>
-      <div class="col-6">
-        <div class="companioniship">
-          <p>GET STARTED EFFORTLESSLY</p>
-          <h2>Enjoy Our <span class="green-main">Companioniship</span></h2>
+      <div class="col-6 championship-setting">
+        <div class="companioniship pl-110px">
           <p>
+            <span class="sub-gray">GET STARTED </span
+            ><span class="main-purple">EFFORTLESSLY</span>
+          </p>
+          <h2>
+            <span class="main-purple fw-600">Enjoy Our</span> <br />
+            <span class="green-main">Companioniship</span>
+          </h2>
+          <p class="sub-gray">
             Sneek peek into what has in store for you on our online teaching and
             mentoring portal. Seek for some hidden hints of early-bird rewards
             as well.
           </p>
-          <a href="#" class="btn btn-primary green-main"
-            >Download free guidebook -></a
-          >
+          <a href="#" class="fw-600 green-main"
+            >Download free guidebook <i class="fa-solid fa-arrow-right-long"></i
+          ></a>
         </div>
       </div>
     </div>
@@ -175,8 +189,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <p>GREAT WORDS ABOUT MAXCOACH</p>
-          <h3>Our <span class="green-main">top learners'</span> verbatim</h3>
+          <p class="sub-gray">GREAT WORDS ABOUT MAXCOACH</p>
+          <h3 class="main-purple fw-600">
+            Our <span class="green-main">top learners'</span> verbatim
+          </h3>
         </div>
       </div>
       <div class="row gap-3">
@@ -241,12 +257,19 @@
       </div>
       <div class="row">
         <div class="col text-center">
-          <p>
+          <p class="fw-600 main-purple">
             Start today for getting
             <span class="green-main">Online Certification</span>
           </p>
-          <h3>You can be your own guiding star with our help!</h3>
-          <button href="#" class="">Get started now</button>
+          <h3 class="fw-600 main-purple">
+            You can be your own guiding star with our help!
+          </h3>
+          <button
+            class="text-white green-main-bg green-button my-3"
+            type="button"
+          >
+            Get started now
+          </button>
         </div>
       </div>
     </div>
@@ -254,47 +277,70 @@
   <div class="container">
     <div class="row d-flex justify-content-center">
       <div class="col-2 py-5 left-border right-border text-center">
-        <p>Successfully trained</p>
+        <p class="main-purple fw-600">
+          Successfully <br />
+          trained
+        </p>
         <h2>
-          <strong><span class="green-main">1790</span></strong>
+          <strong><span class="green-main numbers">1790</span></strong>
         </h2>
-        <p>ENROLLED LEARNERS</p>
+        <p class="sub-gray">ENROLLED LEARNERS</p>
       </div>
       <div class="col-2 py-5 left-border right-border text-center">
-        <p>Proudly Received</p>
+        <p class="main-purple fw-600">
+          Proudly <br />
+          Received
+        </p>
         <h2>
-          <strong><span class="green-main">19</span></strong>
+          <strong><span class="green-main numbers">19</span></strong>
         </h2>
-        <p>COUNTRYWIDE AWARDS</p>
+        <p class="sub-gray">COUNTRYWIDE AWARDS</p>
       </div>
       <div class="col-2 py-5 left-border right-border text-center">
-        <p>Firmly Established</p>
+        <p class="main-purple fw-600">
+          Firmly <br />
+          Established
+        </p>
         <h2>
-          <strong><span class="green-main">24</span></strong>
+          <strong><span class="green-main numbers">24</span></strong>
         </h2>
-        <p>LOCAL BRANCHES</p>
+        <p class="sub-gray">LOCAL BRANCHES</p>
       </div>
       <div class="col-2 py-5 left-border right-border text-center">
-        <p>Getting Featured on</p>
+        <p class="main-purple fw-600">
+          Getting <br />
+          Featured on
+        </p>
         <h2>
-          <strong><span class="green-main">1090</span></strong>
+          <strong><span class="green-main numbers">1090</span></strong>
         </h2>
-        <p>BLOG POSTS</p>
+        <p class="sub-gray">BLOG POSTS</p>
       </div>
     </div>
   </div>
   <div class="container-fluid main-bg-beige py-5">
     <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <p>ENJOYABLE INSIGHTS</p>
-          <h3>Most Viewed <span class="green-main">Best Blogs</span></h3>
+      <div class="row my-5">
+        <div class="col-4 blogs">
+          <p class="sub-gray">ENJOYABLE INSIGHTS</p>
+          <h3 class="main-purple">
+            <span class="fw-600">Most Viewed </span>
+            <span class="green-main">Best Blogs</span>
+          </h3>
           <ul>
-            <li>Become a better Blogger: Content Planning</li>
-            <li>Promoting Your Online Business on Pinterest</li>
-            <li>Gamification and Game-Based Learning</li>
-            <li>Designing an Online Course from Expert's Perspective</li>
-            <li>Why Online Courses Are The Future of Education</li>
+            <li class="main-purple">
+              Become a better Blogger: Content Planning
+            </li>
+            <li class="main-purple">
+              Promoting Your Online Business on Pinterest
+            </li>
+            <li class="main-purple">Gamification and Game-Based Learning</li>
+            <li class="main-purple">
+              Designing an Online Course from Expert's Perspective
+            </li>
+            <li class="main-purple">
+              Why Online Courses Are The Future of Education
+            </li>
           </ul>
         </div>
         <div class="col-4">
@@ -305,10 +351,16 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">ARTIST</h5>
-              <p class="card-text">Brush Strokes Energize Trees in Paintings</p>
-              <span>May 15, 2020 </span>
-              <span>688 views</span>
+              <p class="sub-gray">ARTIST</p>
+              <p class="card-text fw-600 main-purple">
+                Brush Strokes Energize Trees in Paintings
+              </p>
+              <span class="sub-gray pe-3"
+                ><i class="fa-regular fa-calendar"></i> May 15, 2020
+              </span>
+              <span class="sub-gray"
+                ><i class="fa-regular fa-eye"></i> 688 views</span
+              >
             </div>
           </div>
         </div>
@@ -320,12 +372,16 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">ARTIST</h5>
-              <p class="card-text">
+              <p class="sub-gray">ARTIST</p>
+              <p class="card-text fw-600 main-purple">
                 Pocket-Sized Notebooks Hold Miniature Paintings
               </p>
-              <span>May 15, 2020 </span>
-              <span>603 views</span>
+              <span class="sub-gray pe-3"
+                ><i class="fa-regular fa-calendar"></i> May 15, 2020
+              </span>
+              <span class="sub-gray"
+                ><i class="fa-regular fa-eye"></i> 603 views</span
+              >
             </div>
           </div>
         </div>
@@ -333,21 +389,26 @@
     </div>
   </div>
   <div class="container my-5">
-    <div class="row">
+    <div class="row py-5">
       <div class="col text-center">
-        <h2>Subscribe <span class="green-main">Newsletters</span></h2>
-        <p>
-          Enter your email address to register to our newsletter subscription
+        <h2 class="main-purple fw-600">
+          Subscribe <span class="green-main">Newsletters</span>
+        </h2>
+        <p class="sub-gray">
+          Enter your email address to register to our newsletter subscription<br />
           delivered on a regular basis!
         </p>
         <form>
           <input
             type="email"
             placeholder="Enter your email"
-            class="main-bg w-25 no-borders"
+            class="main-bg w-25 no-borders border-r5px p-2"
             id="InputEmail"
           />
-          <button type="button" class="green-main-bg text-white no-borders">
+          <button
+            type="button"
+            class="green-main-bg text-white no-borders border-r5px p-2"
+          >
             Subscribe
           </button>
         </form>
@@ -427,5 +488,47 @@ export default {
   border-radius: 5px;
   border: none;
   font-weight: bold;
+}
+
+.tutoring-cards a {
+  text-decoration: none;
+}
+
+.tutoring-play {
+  position: relative;
+  bottom: 270px;
+  left: 295px;
+}
+
+.pl-110px {
+  padding-left: 110px;
+}
+
+.main-purple {
+  color: $color-purple;
+}
+
+.championship-setting {
+  align-content: center;
+  padding-bottom: 100px;
+}
+
+.numbers {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.blogs li {
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+
+.blogs li::marker {
+  content: "→ ";
+  font-size: 1.2em;
+}
+
+.border-r5px {
+  border-radius: 5px;
 }
 </style>

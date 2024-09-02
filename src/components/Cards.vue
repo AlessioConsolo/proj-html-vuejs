@@ -9,8 +9,12 @@
           <strong>{{ price }}</strong>
         </h4>
         <h5 class="fw-600">{{ description }}</h5>
-        <span class="inline-block sub-gray ps-3 pe-5">{{ lessons }}</span>
-        <span class="inline-block sub-gray">{{ students }}</span>
+        <span class="inline-block sub-gray pe-5"
+          ><i class="fa-solid fa-file-lines"></i> {{ lessons }}</span
+        >
+        <span class="inline-block sub-gray"
+          ><i class="fa-regular fa-user"></i> {{ students }}</span
+        >
       </div>
     </div>
   </div>
@@ -45,6 +49,7 @@ export default {
   border-radius: 50%;
   height: 115px;
   width: 120px;
+  float: inline-end;
 }
 
 .price-color {
