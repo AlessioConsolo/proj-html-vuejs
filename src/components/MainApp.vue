@@ -1,14 +1,19 @@
 <template lang="html">
   <div class="container">
     <div class="row my-5">
-      <div class="col-6">
-        <h2>Distant learning for further expansion</h2>
-        <p>
+      <div class="col-6 align-content-center">
+        <h1 class="fw-600 fs-35rem">Distant learning for further expansion</h1>
+        <p class="sub-gray">
           Learning is a life-long journey that in fact we never find the
           terminate stop. Stop searching, enjoy the process.
         </p>
-        <button type="button">Download free guide</button>
-        <p>Have questions? <a href="#">Get Free Sample -></a></p>
+        <button class="text-white green-main-bg green-button" type="button">
+          Download free guide
+        </button>
+        <p class="sub-gray">
+          Have questions?
+          <a href="#" class="green-main fw-600">Get Free Sample -></a>
+        </p>
       </div>
       <div class="col-6">
         <img
@@ -35,8 +40,8 @@
     <div class="container py-5">
       <div class="row pt-5">
         <div class="col mb-5 text-center">
-          <p>STIMULATED TO LEARN?</p>
-          <h2>Featured Online Courses</h2>
+          <p class="sub-gray">STIMULATED TO LEARN?</p>
+          <h2 class="fw-600">Featured Online Courses</h2>
         </div>
       </div>
       <div class="cards d-flex gap-5 flex-wrap justify-content-center">
@@ -88,6 +93,13 @@
           lessons="14 Lessons"
           students="76 Students"
         />
+      </div>
+      <div class="row my-5">
+        <div class="col text-center">
+          <button class="text-white green-main-bg green-button" type="button">
+            View all courses ->
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -357,6 +369,7 @@ export default {
   img {
     width: fit-content;
     height: fit-content;
+    opacity: 0.5;
   }
 }
 .cards {
@@ -367,6 +380,10 @@ export default {
 
 .main-bg {
   background-color: $bg-color-gray;
+}
+
+.sub-gray {
+  color: $sub-color-gray;
 }
 
 .main-white {
@@ -395,5 +412,20 @@ export default {
 
 .no-borders {
   border: none;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fs-35rem {
+  font-size: 3.5rem;
+}
+
+.green-button {
+  padding: 13px 50px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
 }
 </style>

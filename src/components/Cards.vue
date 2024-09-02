@@ -8,9 +8,9 @@
         <h4 class="price-color">
           <strong>{{ price }}</strong>
         </h4>
-        <h5>{{ description }}</h5>
-        <span class="inline-block ps-3 pe-5">{{ lessons }}</span>
-        <span class="inline-block">{{ students }}</span>
+        <h5 class="fw-600">{{ description }}</h5>
+        <span class="inline-block sub-gray ps-3 pe-5">{{ lessons }}</span>
+        <span class="inline-block sub-gray">{{ students }}</span>
       </div>
     </div>
   </div>

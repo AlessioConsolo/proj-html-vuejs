@@ -3,7 +3,7 @@
     <div class="row pb-5">
       <div class="col d-flex my-4 align-items-center justify-content-between">
         <div class="logo">
-          <img class="img-fluid" src="../assets/dark-logo.png" alt="Logo" />
+          <img class="max-w-60" src="../assets/dark-logo.png" alt="Logo" />
         </div>
         <div class="menu d-flex">
           <ul class="d-flex gap-5 mx-5">
@@ -52,5 +52,9 @@ defineProps({
     text-decoration: none;
     color: #696969;
   }
+}
+
+.max-w-60 {
+  max-width: 60%;
 }
 </style>
