@@ -8,7 +8,7 @@
         <h4 class="price-color">
           <strong>{{ price }}</strong>
         </h4>
-        <h5 class="fw-600">{{ description }}</h5>
+        <h5 class="fw-600 desc">{{ description }}</h5>
         <span class="inline-block sub-gray pe-5"
           ><i class="fa-solid fa-file-lines"></i> {{ lessons }}</span
         >
@@ -54,5 +54,10 @@ export default {
 
 .price-color {
   color: $green-main;
+}
+
+.desc:hover {
+  color: $green-main;
+  cursor: pointer;
 }
 </style>

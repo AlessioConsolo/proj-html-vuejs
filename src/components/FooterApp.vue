@@ -15,19 +15,32 @@
               </li>
             </ul>
             <div class="socials">
-              <i
-                class="fa-brands fa-square-facebook fa-lg me-3"
-                style="color: #b7b7b7"
-              ></i>
-              <i
-                class="fa-brands fa-twitter fa-lg me-3"
-                style="color: #b7b7b7"
-              ></i>
-              <i
-                class="fa-brands fa-instagram fa-lg me-3"
-                style="color: #b7b7b7"
-              ></i>
-              <i class="fa-brands fa-linkedin fa-lg" style="color: #b7b7b7"></i>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-square-facebook fa-lg me-3"
+                  style="color: #b7b7b7"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-twitter fa-lg me-3"
+                  style="color: #b7b7b7"
+                ></i
+              ></a>
+
+              <a href="#"
+                ><i
+                  class="fa-brands fa-instagram fa-lg me-3"
+                  style="color: #b7b7b7"
+                ></i
+              ></a>
+
+              <a href="#"
+                ><i
+                  class="fa-brands fa-linkedin fa-lg"
+                  style="color: #b7b7b7"
+                ></i
+              ></a>
             </div>
           </div>
           <div class="info-links gap-5 d-flex">
@@ -103,5 +116,13 @@ a {
 
 .sub-gray {
   color: $sub-color-gray;
+}
+
+a:hover {
+  color: $green-main;
+}
+
+i:hover {
+  color: $green-main !important;
 }
 </style>

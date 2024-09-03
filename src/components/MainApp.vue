@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="container">
     <div class="row my-5">
-      <div class="col-6 align-content-center">
+      <div class="first-section col-6 align-content-center">
         <h1 class="fw-600 main-purple fs-35rem">
           Distant learning for further expansion
         </h1>
@@ -13,7 +13,7 @@
           class="text-white green-main-bg green-button mb-3"
           type="button"
         >
-          Download free guide
+          <i class="fa-solid fa-download"></i> Download free guide
         </button>
         <p class="sub-gray">
           Have questions?
@@ -512,5 +512,13 @@ export default {
 
 .border-r5px {
   border-radius: 5px;
+}
+
+a:hover {
+  color: $green-main;
+}
+
+.first-section button:hover {
+  background-color: $color-purple;
 }
 </style>
