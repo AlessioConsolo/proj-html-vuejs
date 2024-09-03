@@ -51,7 +51,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .dots span {
   display: inline-block;
   width: 10px;
