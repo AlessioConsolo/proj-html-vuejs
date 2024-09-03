@@ -1,46 +1,49 @@
 <template lang="html">
-  <div class="container">
-    <div class="row my-5">
-      <div class="first-section col-6 align-content-center">
-        <h1 class="fw-600 main-purple fs-35rem">
-          Distant learning for further expansion
-        </h1>
-        <p class="sub-gray">
-          Learning is a life-long journey that in fact we never find the
-          terminate stop. Stop searching, enjoy the process.
-        </p>
-        <button
-          class="text-white green-main-bg green-button mb-3"
-          type="button"
-        >
-          <i class="fa-solid fa-download"></i> Download free guide
-        </button>
-        <p class="sub-gray">
-          Have questions?
-          <a href="#" class="green-main fw-600">Get Free Sample -></a>
-        </p>
-      </div>
-      <div class="col-6">
-        <img
-          src="../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
-          alt=""
-          class="rounded-circle w-100 h-100"
-        />
-      </div>
-      <div class="col">
-        <div
-          class="partners d-flex justify-content-between align-items-center my-5"
-        >
-          <img class="img-fluid" src="../assets/client-logo-01.png" alt="" />
-          <img class="img-fluid" src="../assets/client-logo-02.png" alt="" />
-          <img class="img-fluid" src="../assets/client-logo-03.png" alt="" />
-          <img class="img-fluid" src="../assets/client-logo-04.png" alt="" />
-          <img class="img-fluid" src="../assets/client-logo-05.png" alt="" />
-          <img class="img-fluid" src="../assets/client-logo-06.png" alt="" />
+  <div class="container-fluid bg-images1">
+    <div class="container">
+      <div class="row my-5">
+        <div class="first-section col-6 align-content-center">
+          <h1 class="fw-600 main-purple fs-35rem">
+            Distant learning for further expansion
+          </h1>
+          <p class="sub-gray">
+            Learning is a life-long journey that in fact we never find the
+            terminate stop. Stop searching, enjoy the process.
+          </p>
+          <button
+            class="text-white green-main-bg green-button mb-3"
+            type="button"
+          >
+            <i class="fa-solid fa-download"></i> Download free guide
+          </button>
+          <p class="sub-gray">
+            Have questions?
+            <a href="#" class="green-main fw-600">Get Free Sample -></a>
+          </p>
+        </div>
+        <div class="col-6 big-img">
+          <img
+            src="../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
+            alt=""
+            class="rounded-circle w-100 h-100"
+          />
+        </div>
+        <div class="col">
+          <div
+            class="partners d-flex justify-content-between align-items-center my-5"
+          >
+            <img class="img-fluid" src="../assets/client-logo-01.png" alt="" />
+            <img class="img-fluid" src="../assets/client-logo-02.png" alt="" />
+            <img class="img-fluid" src="../assets/client-logo-03.png" alt="" />
+            <img class="img-fluid" src="../assets/client-logo-04.png" alt="" />
+            <img class="img-fluid" src="../assets/client-logo-05.png" alt="" />
+            <img class="img-fluid" src="../assets/client-logo-06.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
   </div>
+
   <div class="container-fluid main-bg">
     <div class="container py-5">
       <div class="row pt-5">
@@ -520,5 +523,14 @@ a:hover {
 
 .first-section button:hover {
   background-color: $color-purple;
+}
+
+.bg-images1 {
+  background-image: url(../assets/maxcoach-shape-02.png),
+    url(../assets/maxcoach-shape-07-100x100.png),
+    url(../assets/maxcoach-shape-08.png), url(../assets/maxcoach-shape-08.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: right 22% top 122px, bottom 183px right 29%,
+    right 49% top 188px, right 49% top 338px;
 }
 </style>
